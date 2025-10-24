@@ -1,0 +1,18 @@
+{
+    "title": {
+      "us": "Monthly Sales Analyzer",
+      "es": "Analizador de Ventas Mensuales"
+    },
+    "description": {
+      "us": "Analyze monthly sales data for three products over 20 days using Python. Apply loops, conditionals, and data structures to calculate totals, averages, and trends for better insights.",
+      "es": "Analiza los datos de ventas mensuales de tres productos durante 20 días usando Python. Aplica bucles, condicionales y estructuras de datos para calcular totales, promedios y tendencias para mejores insights."
+    },
+    "preview": "https://github.com/4GeeksAcademy/monthly-sales-analyzer-project/blob/main/assets/preview.png?raw=true",
+    "slug" : "monthly-sales-analyzer-project",
+    "projectType": "project",
+    "technologies": ["python", "data analysis"],
+    "template_url": "self",
+    "difficulty": "beginner",
+    "repository": "https://github.com/4GeeksAcademy/monthly-sales-analyzer-project",
+    "gitpod": true
+  }
