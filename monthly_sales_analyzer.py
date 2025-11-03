@@ -19,8 +19,9 @@ sales_data = [
     {"day": 17, "product_a": 188, "product_b": 109, "product_c": 163},
     {"day": 18, "product_a": 108, "product_b": 139, "product_c": 202},
     {"day": 19, "product_a": 229, "product_b": 133, "product_c": 241},
-    {"day": 20, "product_a": 210, "product_b": 57, "product_c": 324}
+    {"day": 20, "product_a": 210, "product_b": 57, "product_c": 324},
 ]
+
 
 def total_sales_by_product(data, product_key):
     """Calculates the total sales of a specific product in 30 days."""
@@ -29,10 +30,12 @@ def total_sales_by_product(data, product_key):
         total += day[product_key]
     return total
 
+
 def average_daily_sales(data, product_key):
     """Calculates the average daily sales of a specific product."""
     total = total_sales_by_product(data, product_key)
     return total / len(data)
+
 
 def best_selling_day(data):
     """Finds the day with the highest total sales."""
@@ -45,6 +48,7 @@ def best_selling_day(data):
             best_day = day["day"]
     return best_day
 
+
 def days_above_threshold(data, product_key, threshold):
     """Counts how many days the sales of a product exceeded a given threshold."""
     count = 0
@@ -53,12 +57,13 @@ def days_above_threshold(data, product_key, threshold):
             count += 1
     return count
 
+
 def top_product(data):
     """Determines which product had the highest total sales in 30 days."""
     total_a = total_sales_by_product(data, "product_a")
     total_b = total_sales_by_product(data, "product_b")
     total_c = total_sales_by_product(data, "product_c")
-    
+
     if total_a >= total_b and total_a >= total_c:
         return "product_a"
     elif total_b >= total_c:
@@ -66,9 +71,13 @@ def top_product(data):
     else:
         return "product_c"
 
+
 # Function tests
 print("Total sales of product_a:", total_sales_by_product(sales_data, "product_a"))
 print("Average daily sales of product_b:", average_daily_sales(sales_data, "product_b"))
 print("Day with highest total sales:", best_selling_day(sales_data))
-print("Days when product_c exceeded 300 sales:", days_above_threshold(sales_data, "product_c", 300))
+print(
+    "Days when product_c exceeded 300 sales:",
+    days_above_threshold(sales_data, "product_c", 300),
+)
 print("Product with highest total sales:", top_product(sales_data))

@@ -3,7 +3,7 @@
 En este proyecto, te pondrás en el papel de un analista de datos encargado de evaluar el rendimiento de ventas de tres productos durante un mes. Para ello, trabajarás con un conjunto de datos estructurado en una lista de diccionarios, donde cada entrada representa las ventas diarias de cada producto. Tu tarea será completar varias funciones en Python que te permitirán calcular totales, promedios, encontrar los días más y menos exitosos, y analizar tendencias de ventas. A medida que completes cada función, estarás fortaleciendo tus habilidades en manipulación de datos y lógica de programación, preparándote para futuros proyectos en ciencia de datos.
 
 <onlyfor saas="false" withBanner="false">
-  
+
 ### 🌱 Cómo iniciar este proyecto
 
 Sigue las siguientes instrucciones:
@@ -26,17 +26,17 @@ Se te ha proporcionado un archivo Python (`monthly_sales_analyzer.py`) que conti
     - `"product_b"`: Ventas del Producto B.
     - `"product_c"`: Ventas del Producto C.
 
-Ejemplo: 
+Ejemplo:
 
 ```python
 {"day": 1, "product_a": 150, "product_b": 80, "product_c": 200}
 ```
 
-- Completa las cinco funciones de marcador de posición en el archivo. 
+- Completa las cinco funciones de marcador de posición en el archivo.
 
 - Cada función analiza los `sales_data` de una manera específica. Usa solo Python básico, sin bibliotecas externas. El archivo incluye declaraciones `print` para probar tu trabajo.
 
-#### Funciones a Completar:  
+#### Funciones a Completar:
 - **`total_sales_by_product(data, product_key)`:** Calcula las ventas totales de un producto dado (por ejemplo, `"product_a"`) a lo largo de 20 días.
 
 
@@ -55,22 +55,22 @@ Ejemplo:
     python3 monthly_sales_analyzer.py
     ```
 
-## ¿Te sientes confiado? 😎:  
+## ¿Te sientes confiado? 😎:
 - Agrega una función para encontrar el día con las peores ventas.
 - Ordena los días por ventas totales y muestra los 3 mejores.
 - Calcula el rango (máximo - mínimo) de las ventas de un producto.
 
-  
-Al final, habrás practicado el manejo de un conjunto de datos realista con Python básico, desarrollando habilidades para tu próximo curso de ciencia de datos. 
+
+Al final, habrás practicado el manejo de un conjunto de datos realista con Python básico, desarrollando habilidades para tu próximo curso de ciencia de datos.
 
 ¡Diviértete analizando!🚀
 
 
 ## 🚛 Cómo entregar este proyecto
 
-Una vez que completes los ejercicios, sigue estos pasos para enviarlos correctamente:  
+Una vez que completes los ejercicios, sigue estos pasos para enviarlos correctamente:
 
-1. **Guarda y confirma los cambios** en tu repositorio local:  
+1. **Guarda y confirma los cambios** en tu repositorio local:
 
    ```sh
    git add .
